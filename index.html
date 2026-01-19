@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nasreddine – Copywriter Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Cairo',sans-serif;background:linear-gradient(135deg,#0a1f44,#0d3b66);color:#fff;overflow-x:hidden;user-select:none;transition:all .5s}
+header{padding:30px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:900;color:#fff}
+nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:600;opacity:.85;transition:.3s}
+nav a:hover{opacity:1}
+.lang-btn{background:transparent;border:2px solid #4da3ff;color:#4da3ff;padding:6px 16px;border-radius:20px;cursor:pointer;font-weight:700;transition:.3s}
+.lang-btn:hover{transform:scale(1.05)}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:60px 6%;align-items:center;transition:.5s}
+.hero img{width:100%;max-width:320px;border-radius:50%;border:5px solid #4da3ff;transition:.5s}
+.hero h1{font-size:42px;margin-bottom:20px;transition:.5s}
+.hero p{line-height:1.9;color:#e0ecff;transition:.5s}
+.section{padding:80px 6%;transition:.5s}
+.section h2{font-size:34px;margin-bottom:40px;text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:rgba(255,255,255,.08);padding:25px;border-radius:20px;backdrop-filter:blur(10px);transition:.5s}
+.card h3{margin-bottom:15px;color:#4da3ff}
+.card p{line-height:2;font-size:15px;text-align:justify}
+.contact{max-width:600px;margin:auto;text-align:center;transition:.5s}
+.contact input, .contact textarea{width:100%;padding:12px;margin:10px 0;border-radius:10px;border:none}
+.contact button{background:#4da3ff;color:#fff;padding:14px 30px;border-radius:30px;border:none;font-weight:700;cursor:pointer;transition:.3s}
+.contact button:hover{transform:scale(1.05)}
+footer{text-align:center;padding:30px;background:#08162e;color:#bcd7ff;transition:.5s}
+.wa-float{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:14px 22px;border-radius:50px;font-weight:700;text-decoration:none;z-index:9999;box-shadow:0 10px 30px rgba(0,0,0,.25);transition:.3s}
+.wa-float:hover{transform:scale(1.05)}
+</style>
+</head>
+<body><header>
+ <div class="logo">Nasreddine</div>
+ <nav>
+  <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+  <a href="#ads" data-ar="نصوص إعلانية" data-en="Ad Copies">نصوص إعلانية</a>
+  <a href="#scripts" data-ar="سكريبتات" data-en="Video Scripts">سكريبتات</a>
+  <a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
+  <button id="langToggle" class="lang-btn">AR | EN</button>
+ </nav>
+</header><section class="hero" id="home">
+ <div>
+  <h1 data-ar="كاتب سكريبتات إعلانية محترف" data-en="Professional Advertising Scriptwriter">كاتب سكريبتات إعلانية محترف</h1>
+  <p data-ar="أنا متخصص في كتابة النصوص الإعلانية وسيناريوهات الفيديو المؤثرة التي تبيع وتُقنع. لا أمثل في الإعلانات، عملي يقتصر على الكتابة فقط." data-en="I specialize in writing persuasive ad copies and high-converting video scripts. I do not act in ads, I only write scripts.">أنا متخصص في كتابة النصوص الإعلانية وسيناريوهات الفيديو المؤثرة التي تبيع وتُقنع. لا أمثل في الإعلانات، عملي يقتصر على الكتابة فقط.</p>
+ </div>
+ <div style="text-align:center">
+  <img src="profile.png" alt="Nasreddine">
+ </div>
+</section><section class="section" id="ads">
+ <h2 data-ar="نماذج نصوص إعلانية" data-en="Advertising Copy Samples">نماذج نصوص إعلانية</h2>
+ <div class="cards">
+  <div class="card"><h3 data-ar="نص إعلاني 1" data-en="Ad Copy 1">نص إعلاني 1</h3><p data-ar="هذا النص الإعلاني طويل جدًا، يروي قصة العميل منذ البداية، يصف كل التحديات التي يواجهها، كيف يضيع وقته وأمواله في الحلول الخاطئة، ثم يقدم المنتج كحل شامل، يشرح كل المزايا والفوائد خطوة بخطوة، ويقود القارئ إلى اتخاذ القرار بثقة دون تردد." data-en="This ad copy is very long, narrating the customer's journey from the start, describing all challenges faced, how they waste time and money on wrong solutions, then presenting the product as a complete solution, explaining each benefit step by step, guiding the reader to make a confident decision without hesitation.">هذا النص الإعلاني طويل جدًا...</p></div>
+  <div class="card"><h3 data-ar="نص إعلاني 2" data-en="Ad Copy 2">نص إعلاني 2</h3><p data-ar="نص إعلاني آخر طويل جدًا، يركز على بناء الثقة بشكل متسلسل، يوضح أسباب الشكوك المعتادة لدى العملاء وكيف يتجاوزها المنتج، يذكر أمثلة عملية على النتائج، يعزز قيمة العرض ويقنع القارئ بطريقة سلسة، وينتهي بدعوة واضحة للشراء." data-en="Another very long ad copy focusing on sequential trust-building, explaining usual customer doubts and how the product overcomes them, giving practical examples of results, reinforcing the value of the offer, convincing the reader smoothly, ending with a clear call to purchase.">نص إعلاني آخر طويل جدًا...</p></div>
+ </div>
+</section><section class="section" id="scripts">
+ <h2 data-ar="سكريبتات فيديو إعلانية" data-en="Video Advertising Scripts">سكريبتات فيديو إعلانية</h2>
+ <div class="cards">
+  <div class="card"><h3 data-ar="سكريبت 1" data-en="Script 1">سكريبت 1</h3><p data-ar="هذا السكريبت يبدأ بمشهد يجذب الانتباه ثم يوضح المشكلة بالتفصيل ويظهر الحل بوضوح مع سرد كل الفوائد، ويتضمن خاتمة تحث العميل على اتخاذ إجراء فوري." data-en="This script starts with an attention-grabbing scene, then details the problem and clearly presents the solution, listing all benefits, ending with a conclusion urging the customer to take immediate action.">هذا السكريبت يبدأ بمشهد يجذب الانتباه...</p></div>
+ </div>
+</section><section class="section" id="contact">
+ <h2 data-ar="تواصل معي" data-en="Contact Me">تواصل معي</h2>
+ <div class="contact">
+  <input type="text" id="name" placeholder="Name / الاسم">
+  <input type="email" id="email" placeholder="Email / البريد الإلكتروني">
+  <textarea id="message" placeholder="Message / الرسالة" rows="6"></textarea>
+  <button onclick="sendEmail()" data-ar="إرسال" data-en="Send">إرسال</button>
+ </div>
+</section><footer>portfolio for Nasreddine</footer><a class="wa-float" target="_blank">WhatsApp</a>
+
+<script>
+let currentLang='ar';
+const elements=document.querySelectorAll('[data-ar]');
+const wa=document.querySelector('.wa-float');
+function updateLang(){
+ document.documentElement.lang=currentLang;
+ document.documentElement.dir=currentLang==='ar'?'rtl':'ltr';
+ elements.forEach(el=>{el.textContent=el.getAttribute('data-'+currentLang)});
+ const msgAR='مرحبًا، شاهدت بورتفوليوك وأرغب في طلب خدمة كتابة سكريبت إعلاني';
+ const msgEN='Hello, I saw your portfolio and I would like to request a scriptwriting service';
+ wa.href='https://wa.me/212703605819?text='+encodeURIComponent(currentLang==='ar'?msgAR:msgEN);
+}
+updateLang();
+document.getElementById('langToggle').onclick=()=>{
+ currentLang=currentLang==='ar'?'en':'ar';
+ elements.forEach(el=>{el.style.transition='all .5s'});
+ updateLang();
+};
+document.addEventListener('contextmenu',e=>e.preventDefault());
+function sendEmail(){
+ const name=document.getElementById('name').value;
+ const email=document.getElementById('email').value;
+ const message=document.getElementById('message').value;
+ if(name && email && message){
+ window.location.href=`mailto:nasrnassiri.2010@gmail.com?subject=${encodeURIComponent('Portfolio Contact from '+name)}&body=${encodeURIComponent(message+'\n\nEmail: '+email)}`;
+ }else{
+ alert(currentLang==='ar'?'يرجى ملء جميع الحقول':'Please fill all fields');
+ }
+}
+</script></body>
+</html>
